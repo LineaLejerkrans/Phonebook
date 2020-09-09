@@ -1,9 +1,19 @@
-div{
-  background-color: lightgreen;
-  width: 300px;
-  padding: 50px;
-  border: 50px solid navy;
+table {
+  font-family: arial;
+  border-collapse: collapse;
+  width: 100%;
+}
 
+h1{
   text-align: center;
-  margin: auto;
+}
+
+th, td{
+  border: 1px solid;
+  text-align: left;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background: lightgreen;
 }
